@@ -1,0 +1,18 @@
+CS452/EE465 Computer Graphics Spring 2015
+Lab #1
+
+due: Friday, 1/30/15 at midnight
+
+Write a WebGL application that will display three different 2D shapes, one at a time. A left mouse click
+will toggle among the shapes.
+
+The initial canvas will display the first shape. A left mouse click will cause the second shape to be 
+displayed, another left mouse click will result in the third shape to be displayed, and finally another
+left click will display the first shape. So every time there is a left mouse click, the next shape will
+be displayed.
+
+Assumptions:
+1. vertex coordinates will be in the range [-1.0, +1.0]
+2. use webgl-utils.js, initShaders.js and MV.js from Angel
+3. three files are required in the solution: lab1.html, lab1.js and lab1.README. The lab1.README file
+will contain your name and date along with a brief description of your solution
