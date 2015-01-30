@@ -1,7 +1,7 @@
+<! Michael Zbytniewski>
 <!DOCTYPE html>
 <html>
 <head>
-
 <script id="vertex-shader" type="x-shader/x-vertex">
 attribute vec4 vPosition;
 
@@ -18,15 +18,16 @@ precision mediump float;
 void
 main()
 {
-    gl_FragColor = vec4( 1.0, 1.0, 1.0, 1.0 );
+    gl_FragColor = vec4( 0.0, 0.0, 1.0, 1.0 );
 }
 </script>
-
+</button>
 <script type="text/javascript" src="../Common/webgl-utils.js"></script>
 <script type="text/javascript" src="../Common/initShaders.js"></script>
 <script type="text/javascript" src="../Common/MV.js"></script>
 <script type="text/javascript" src="lab1.js"></script>
 </head>
+
 
 <body>
 <canvas id="gl-canvas" width="512" height="512">
